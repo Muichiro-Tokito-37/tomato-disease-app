@@ -45,7 +45,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load the saved model (Update the path if needed)
-MODEL_PATH = r"C:\a a Tomato-Project\training\tomato_disease_model.keras"
+MODEL_PATH = "training/tomato_disease_model.keras"
 model = tf.keras.models.load_model(MODEL_PATH)
 
 # Define class names (Make sure they match your dataset)
